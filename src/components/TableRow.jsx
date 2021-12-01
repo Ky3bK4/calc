@@ -7,7 +7,6 @@ const TableRow = (props) => {
 
   useCalc(quantity, cost, props.sum);
 
-
   const changeQuantity = (e) => {
     const val = Number(e.target.value)
     if(typeof val === 'number' ){

@@ -6,7 +6,7 @@ function App() {
 
   return (
     <table cellSpacing={0}>
-      <tr className="header" collapse>
+      <tr className="header">
         <th>Название товара</th>
         <th>Количество</th>
         <th>Стоимость 1 ед.</th>
