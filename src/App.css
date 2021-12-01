@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+table {
+  border: 2px solid #000;
+  border-collapse: collapse;
+}
+
+.header th {
+  border: none;
+  background: #000;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+tr td {
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+tr:nth-child(odd) {
+  background: #ccc;
+}
+
+td:last-child {
+  text-align: center;
+}
+
+.summaryRow {
+  color: red;
+}
+
+tr:hover {
+  background: lightblue;
+}
