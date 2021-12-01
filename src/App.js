@@ -6,19 +6,23 @@ function App() {
 
   return (
     <table cellSpacing={0}>
+      <thead>
       <tr className="header">
         <th>Название товара</th>
         <th>Количество</th>
         <th>Стоимость 1 ед.</th>
         <th>Общая стоимость</th>
       </tr>
-     <TableRow title="Красный носок" sum={setSummary}/>
-     <TableRow title="Синий носок" sum={setSummary}/>
-     <TableRow title="Бесцветный носок" sum={setSummary}/>
-     <tr className="summaryRow">
-       <td colSpan={3}>Итоговая стоимость</td>
-       <td>{summary}</td>
-     </tr>
+      </thead>
+      <tbody>
+      <TableRow title="Красный носок" sum={setSummary}/>
+      <TableRow title="Синий носок" sum={setSummary}/>
+      <TableRow title="Бесцветный носок" sum={setSummary}/>
+      <tr className="summaryRow">
+        <td colSpan={3}>Итоговая стоимость</td>
+        <td>{summary}</td>
+      </tr>
+      </tbody>
     </table>
   );
 }
